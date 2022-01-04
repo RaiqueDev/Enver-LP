@@ -1,0 +1,140 @@
+.container_header {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../img/HeaderImage.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 46%;
+    object-fit: contain;
+
+    header {
+        width: 100%;
+        height: 84px;
+
+        @extend .flexSpace-around;
+
+        .topnav {
+            width: 266.64px;
+            height: 16px;
+            overflow: hidden;
+
+            @extend .flexSpace-between;
+        }
+
+        .topnav a {
+            float: left;
+            text-align: center;
+            text-decoration: none;
+
+            font-family: "Nunito Sans", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11.9464px;
+            line-height: 16px;
+            text-align: right;
+
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .topnav a.active {
+            color: #5454d4;
+        }
+
+        .btnHeader {
+            width: 104px;
+            height: 29px;
+            cursor: pointer;
+
+            background-color: #333;
+
+            outline: none;
+            border: 0.66369px solid #ffffff;
+            backdrop-filter: blur(1.32738px);
+
+            border-radius: 3.31845px;
+
+            font-family: "Nunito Sans", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10.619px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: -0.331985px;
+
+            color: #ffffff;
+        }
+    }
+
+    .header_main {
+        width: 100%;
+        height: 80%;
+
+        @extend .flexSpace-around;
+
+        .boxTxt_header {
+            width: 386.27px;
+            height: 366px;
+
+            @extend .flexalign-itemsStartColumn;
+
+            h1 {
+                width: 100%;
+                height: 168px;
+
+                font-family: "Graphik", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 53.0952px;
+                line-height: 56px;
+                color: #ffffff;
+            }
+
+            p {
+                width: 100%;
+                height: 78px;
+
+                font-family: "Nunito Sans", sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13.9375px;
+                line-height: 26px;
+
+                letter-spacing: -0.43573px;
+
+                color: rgba(255, 255, 255, 0.7);
+            }
+
+            button {
+                width: 135.39px;
+                height: 38.49px;
+
+                @extend .flexSpace-evenly;
+
+                background: #5454d4;
+                border-radius: 2.65476px;
+                border: none;
+                cursor: pointer;
+
+                font-family: "Nunito Sans", sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12.2738px;
+                line-height: 18px;
+
+                color: #ffffff;
+            }
+        }
+
+        .HeaderIllustration{
+            width: 480px;
+            height: 100%;
+
+            background-image: url(../img/HeaderIllustration.svg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position-y: 90%;
+            background-position-x: 20%;
+        }
+    }
+}
