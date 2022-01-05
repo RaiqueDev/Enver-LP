@@ -1,0 +1,63 @@
+.container_ContentThree {
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../img/imgfundoThree.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 100%;
+    background-position-y: 90%;
+    @extend .flexCenter;
+
+    .ContentThree {
+        width: 85%;
+        height: 414.14px;
+
+        @extend .flexalign-itemsStartColumn;
+
+        h1 {
+            width: 554px;
+            height: 53px;
+
+            font-family: "Nunito Sans", sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 38.494px;
+            line-height: 53px;
+
+            color: #ffffff;
+        }
+
+        .Portofolio {
+            width: 100%;
+            height: 276.76px;
+
+            .grid-container {
+                width: 100%;
+                height: 100%;
+
+                display: grid;
+                grid-template-columns: auto auto auto;
+                gap: 10px;
+
+                .item1 {
+                    text-align: center;
+
+                    @extend .flex-start;
+                }
+
+                .item2 {
+                    text-align: center;
+
+                    @extend .flexCenter;
+                }
+
+                .item3 {
+                    text-align: center;
+
+                    @extend .flex-end;
+                }
+            }
+        }
+    }
+}

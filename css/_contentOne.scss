@@ -1,0 +1,48 @@
+.container_ContentOne {
+    width: 100%;
+    height: 100%;
+
+    @extend .flexSpace-evenlyColumn;
+
+    .main_Txt {
+        width: 75%;
+        height: 93px;
+
+        @extend .flexSpace-between;
+
+        h1 {
+            width: 390px;
+            height: 93px;
+
+            font-family: "Graphik", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 39.8214px;
+            line-height: 46px;
+            color: #ffffff;
+        }
+
+        p {
+            width: 390px;
+            height: 100%;
+
+            font-family: 'Nunito Sans', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13.9375px;
+            line-height: 26px;
+
+            letter-spacing: -0.43573px;
+
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+
+    .ContentOne_Image{
+        width: 796.43px;
+        height: 444.67px;
+
+        background-color: #1D1E2C;
+        background-image: url(../img/ImageContentOne.svg);
+    }
+}

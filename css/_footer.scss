@@ -1,0 +1,106 @@
+footer {
+    width: 100%;
+    height: 100%;
+
+    @extend .flexSpace-betweenColumn;
+
+    .container_logout {
+        width: 85%;
+        height: 335px;
+
+        @extend .flexSpace-between;
+
+        margin-top: 100px;
+
+        h1 {
+            width: 548.21px;
+            height: 88px;
+
+            font-family: "Graphik", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 39.8214px;
+            line-height: 44px;
+
+            color: #ffffff;
+        }
+
+        button {
+            width: 133px;
+            height: 39px;
+
+            font-family: "Nunito Sans", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13.9375px;
+            line-height: 19px;
+
+            text-align: center;
+
+            color: #ffffff;
+
+            background: #5454d4;
+            border: none;
+            border-radius: 3.31845px;
+            cursor: pointer;
+        }
+    }
+
+    .container_footer {
+        width: 85%;
+        height: 126px;
+
+        @extend .flexCenter;
+
+        .infos_footer {
+            width: 100%;
+            height: 84px;
+
+            @extend .flexSpace-between;
+
+            .topFooter {
+                width: 266.64px;
+                height: 16px;
+                overflow: hidden;
+
+                @extend .flexSpace-between;
+                 
+                a {
+                    text-decoration: none;
+
+                    font-family: "Nunito Sans", sans-serif;;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 11.9464px;
+                    line-height: 16px;
+                    text-align: center;
+                    
+                    color: rgba(255, 255, 255, 0.7);
+                    
+                }
+    
+                a.active {
+                    color: #5454d4;
+                }
+            }
+
+            h1 {
+                width: 189px;
+                height: 29px;
+                cursor: pointer;
+
+                font-family: 'Nunito Sans', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10.619px;
+                line-height: 25px;
+
+                
+                text-align: right;
+                letter-spacing: -0.331985px;
+
+                color: rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
+}
