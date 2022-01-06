@@ -4,5 +4,5 @@
 ![2022-01-05_14-51_1](https://user-images.githubusercontent.com/96999326/148265499-461dd135-6847-4bcf-8d0f-5667cea53001.png)
 ![2022-01-05_14-51_2](https://user-images.githubusercontent.com/96999326/148265658-e53bb014-9584-410a-b176-3bddb57bf28a.png)
 
-#1024 Laptop Screen
+###1024 Laptop Screen
 
