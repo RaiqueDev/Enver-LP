@@ -8,5 +8,6 @@ TELA LAPTOP
 
 ![Laptop 1024 Header](https://user-images.githubusercontent.com/96999326/148444345-0fa5a2ac-309b-4e39-93e8-88c7b6bf827a.png)
 ![2022-01-05_14-50](https://user-images.githubusercontent.com/96999326/148458294-2a9d3ab9-32ce-4504-b4fa-fa6e2353ab43.png)
+![Laptop 1024 Two](https://user-images.githubusercontent.com/96999326/148458480-7deb249b-cd9f-4653-9ba3-43213f459e1a.png)
 
 
